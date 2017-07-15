@@ -14,5 +14,5 @@ export function createMessageSuccess(text) {
 }
 
 export function createMessageWarn(text) {
-  return createMessage('warn', text);
+  return createMessage('warning', text);
 }
