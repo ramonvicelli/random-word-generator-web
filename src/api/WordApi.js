@@ -23,6 +23,7 @@ export default class WordAPi {
 
   words(amountWord) {
     return dispatch => {
+      dispatch(getWords([]));
       const message = this.validate(amountWord);
 
       if(message === null){
